@@ -152,3 +152,31 @@ h4{
   width: 100%;
   height: 790px;
 }
+.pictureContainer {
+    height: 69px;
+    width: 1000px;
+    overflow: hidden;
+}
+.pictureContainer img {
+    transform: translate3d(0px, 0px, 0px);
+    transition: transform .2s ease-in-out;
+}
+.pictureContainer img:hover {
+    transform: translate3d(0px, -69px, 0px);
+}
+#pictureUs{
+  width: 1000px;
+  height: 145px;
+}
+#pictureCreate{
+  width: 1000px;
+  height: 145px;
+}
+#pictureValue{
+  width: 1000px;
+  height: 145px;
+}
+#pictureDo{
+  width: 1000px;
+  height: 145px;
+}

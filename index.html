@@ -18,6 +18,8 @@
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">}
 		<!--Import fonts fom google -->
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
+		<!--Another imports for know how works the letters part :'( -->
+		<link rel="stylesheet" type="text/css" href="assets/css/jquerysctipttop.css">
 		<!--Import functionality -->
 		<script type="text/javascript" src="assets/js/codigo.js"></script>
 	</head>
@@ -66,20 +68,28 @@
 	    <!--Inicio-->
 	    <br>
 	    <br>
-	    <div onmouseover="colorFunction()" onmouseout="backToNormal()">
-	    	<a href="#nosotros" class="nounderline"><h1 id="inicio">NOSOTROS</h1></a>
-	    </div>
-	    <div onmouseover="colorFunction1()" onmouseout="backToNormal1()">
-	    	<a href="#creamos" class="nounderline"><h1 id="inicio1">CREAMOS</h1></a>
-	    </div>
-	    <div onmouseover="colorFunction2()" onmouseout="backToNormal2()">
-	    	<a href="#valor" class="nounderline"><h1 id="inicio2">VALOR</h1></a>
-	    </div>
-	    <div onmouseover="colorFunction3()" onmouseout="backToNormal3()">
-	    	<a href="#loquehacemos" class="nounderline"><h1 id="inicio3">EN LO QUE</h1></a>
-	    </div>
-	    <div onmouseover="colorFunction4()" onmouseout="backToNormal4()">
-	    	<a href="#loquehacemos" class="nounderline"><h1 id="inicio4">HACEMOS</h1></a>
+	    <!--La clave esta en el hidden del css -->
+	    <div class="container">
+	    	<div class="title-unit">
+	    		<br>
+	    		<br>
+	    		<div class="pictureContainer">
+	    			<img id="pictureUs" src="assets/images/nosotros.png" >
+	    			<br>
+	    		</div>
+	    		<div class="pictureContainer">
+	    			<img id="pictureCreate" src="assets/images/creamos.png">
+	    				<br>
+	    		</div>
+	    		<div class="pictureContainer">
+	    			<img id="pictureValue" src="assets/images/valor.png">
+	    			<br>
+	    		</div>
+	    		<div class="pictureContainer">
+	    			<img id="pictureDo" src="assets/images/hacemos.png">
+	    			<br>
+	    		</div>
+	    	</div>
 	    </div>
 	    <!--Fin de inicio-->
 
