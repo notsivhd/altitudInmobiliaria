@@ -1,0 +1,154 @@
+/* Estilo para la barrita que sale debajo del navigation menú*/
+.nav li:hover:nth-child(8n+1), .nav li.active:nth-child(8n+1){
+  border-bottom: #DCF710 3px solid;
+}
+.nav li:hover:nth-child(8n+2), .nav li.active:nth-child(8n+2){
+  border-bottom: #DCF710 3px solid;
+}
+.nav li:hover:nth-child(8n+3), .nav li.active:nth-child(8n+3){
+  border-bottom: #DCF710 3px solid;
+}
+.nav li:hover:nth-child(8n+4), .nav li.active:nth-child(8n+4){
+  border-bottom: #DCF710 3px solid;
+}
+.nav li:hover:nth-child(8n+5), .nav li.active:nth-child(8n+5){
+  border-bottom: #DCF710 3px solid;
+}
+.nav li:hover:nth-child(8n+6), .nav li.active:nth-child(8n+6){
+  border-bottom: #DCF710 3px solid;
+}
+.nav li:hover:nth-child(8n+7), .nav li.active:nth-child(8n+7){
+  border-bottom: #DCF710 3px solid;
+}
+.nav li:hover:nth-child(8n+8), .nav li.active:nth-child(8n+8){
+  border-bottom: #DCF710 3px solid;
+}
+
+
+/*Necesito importar estas cosas pero me sigue marcando error*/
+@font-face{
+  font-family: 'Gotham';
+  src:url(/assets/fonts/Gotham-Medium.otf);
+}
+@font-face{
+  font-family: 'Gotham-Book';
+  src:url(/assets/fonts/Gotham-Book.otf);
+}
+/*Fin de importar los fonts feos que me marcan error*/
+
+/*Estilos para los letreros de inicio que cambian de color, manejados separados por que individualmente deben de cambiar de color t(°-°)t*/
+#inicio{
+  font-family: 'Gotham',sans-serif;
+  font-size: 600%;
+  margin-left: 15%;
+  color: white;
+  text-shadow: 3px 3px #585858;
+}
+#inicio1{
+  font-family: 'Gotham',sans-serif;
+  font-size: 600%;
+  margin-left: 15%;
+  color: white;
+  text-shadow: 3px 3px #585858;
+}
+#inicio2{
+  font-family: 'Gotham',sans-serif;
+  font-size: 600%;
+  margin-left: 15%;
+  color: white;
+  text-shadow: 3px 3px #585858;
+}
+#inicio3{
+  font-family: 'Gotham',sans-serif;
+  font-size: 600%;
+  margin-left: 15%;
+  color: white;
+  text-shadow: 3px 3px #585858;
+}
+#inicio4{
+  font-family: 'Gotham',sans-serif;
+  font-size: 600%;
+  margin-left: 15%;
+  color: white;
+  text-shadow: 3px 3px #585858;
+}
+/*Fin de estilos para los letreros*/
+
+/*Esto es solo para que no aparezca la raya fea del hipervinculo*/
+a.nounderline:link   
+{   
+ text-decoration:none;   
+} 
+/*Estilos para la parte de nosotros*/
+#nosotros{
+  font-family: 'Gotham',sans-serif; 
+  margin-left: 10%;
+  color: white;
+} 
+body{
+  background-image: url(../images/fondo.png);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  font-color: #fff;
+  opacity: 30%;
+}
+div{
+  background-color: transparent;
+  color: #FFFFFF;
+}
+h3{
+  font-family: 'Gotham',sans-serif;
+  color: #FFFFFF;
+}
+h2{
+  font-family: 'Gotham',sans-serif;
+  color: #FFFFFF;
+}
+h4{
+  font-family: 'Gotham',sans-serif;
+  color: #FFFFFF;
+}
+#nosotros1{
+  font-family: 'Gotham',sans-serif; 
+  margin-left: 15%;
+}
+#vel{
+  height: 150px;
+  width: 150px;
+  margin-left: 25%;
+}
+/*Solo para dar posición al texto*/
+#mision{
+  margin-left: 15%;
+}
+/*Solo para dar posición al texto*/
+#vision{
+  margin-left: 7%;
+}
+/*Solo para dar posición al texto*/
+#vel{
+  margin-left: 80%;
+}
+/*Solo para dar posición al texto*/
+#text_nosotros{
+  margin-left: 5%;
+}
+/*Solo para dar posición al texto*/
+#equipo{
+  font-family: 'Gotham',sans-serif;
+  font-size: 500%;
+  margin-left: 15%;
+  color: #DCF710;
+}
+/*Solo para dar posición al texto*/
+#equipo1{
+  margin-left: 15%;
+}
+/*Solo para dar posición al texto*/
+#equipo2{
+  margin-left: 7%;
+}
+#carrusel_image{
+  width: 100%;
+  height: 790px;
+}
