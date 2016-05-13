@@ -152,31 +152,39 @@ h4{
   width: 100%;
   height: 790px;
 }
+/*Es para darle tamaño al contenedor de la imagen, el overflow es para ocultar una parte de la imagen*/
 .pictureContainer {
     height: 69px;
-    width: 1000px;
+    width: 800px;
     overflow: hidden;
 }
 .pictureContainer img {
     transform: translate3d(0px, 0px, 0px);
     transition: transform .2s ease-in-out;
 }
+/*Cuando se pase el mouse sobre la imagen la imagen cambiara*/
 .pictureContainer img:hover {
     transform: translate3d(0px, -69px, 0px);
 }
+/*Para aumentar el tamaño de la imagen*/
 #pictureUs{
-  width: 1000px;
+  width: 800px;
   height: 145px;
 }
 #pictureCreate{
-  width: 1000px;
+  width: 800px;
   height: 145px;
 }
 #pictureValue{
-  width: 1000px;
+  width: 800px;
   height: 145px;
 }
 #pictureDo{
-  width: 1000px;
+  width: 800px;
   height: 145px;
+}
+#title{
+  font-family: 'Gotham',sans-serif;
+  color: #FFFFFF;
+  margin-left: 37%;
 }
