@@ -188,3 +188,17 @@ h4{
   color: #FFFFFF;
   margin-left: 37%;
 }
+/*Estilos para el form de correo*/
+#inputNombre{
+  margin-left: 8%;
+  margin-top: 20%;
+}
+#inputEmail{
+  margin-left: 8%;
+}
+#inputMensaje{
+  margin-left: 8%;
+}
+#botonEnviar{
+  margin-left: 45%;
+}
