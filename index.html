@@ -20,6 +20,8 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
 		<!--Another imports for know how works the letters part :'( -->
 		<link rel="stylesheet" type="text/css" href="assets/css/jquerysctipttop.css">
+		<!-- Link Swiper's CSS -->
+    	<link rel="stylesheet" href="assets/css/swiper.min.css">
 		<!--Import functionality -->
 		<script type="text/javascript" src="assets/js/codigo.js"></script>
 	</head>
@@ -152,9 +154,17 @@
 	   	<br>
 	   	<br>
 	   	<br>
+	   	<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 	   	<h1 id="equipo">
 	   		EQUIPO
 	   	</h1>
+	   	<br>
 	   	<br>
 	   	<br>
 	   	<div class="row">
@@ -181,6 +191,14 @@
 	    <br>
 	    <br>
 	    <br>
+	    <br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 	    <!--Inicio slider de imagenes -->
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		    <!-- Indicators -->
@@ -224,7 +242,10 @@
 	    <h2 id="title">PROYECTOS INMOBILIARIOS</h2>
 	    <!--Inicio Slider 2 -->
 	    <!--FInal Slider 2 -->
-	    <!--Inicio imagen que parece laberinto -->
+	    <!--Inicio imagen que parece laberinto o sección valor en-->
+	    <div class="container-fluid">
+	    	<img id="imagenValor" src="assets/images/valoren.png">
+	    </div>
 	    <!--Fin imagen que parece laberinto -->
 	    <!--Fin de la sección nosotros-->
 	    <!--Inicio sección lo que hacemos -->
@@ -235,17 +256,17 @@
 			   	<form class="form-horizontal">
 			   		<div class="form-group">
 			   			<div class="col-sm-10">
-			   				<input type="text" class="form-control" id="inputNombre" placeholder="Nombre">
+			   				<input type="text" class="form-control" id="inputNombre" aria-required="true" placeholder="Nombre" required>
 			   			</div>
 			   		</div>
 					<div class="form-group">
 					  <div class="col-sm-10">
-					    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+					    <input type="email" class="form-control" id="inputEmail" aria-required="true" placeholder="Email" required>
 					  </div>
 					</div>
 					<div class="form-group">
 						<div class="col-sm-10">
-							<input type="text" class="form-control" id="inputMensaje" placeholder="Mensaje">
+							<textarea id="inputMensaje" class="form-control" name="message" cols="45" rows="3" aria-required="true" placeholder="Mensaje" required></textarea>
 						</div>
 					</div>
 					<!--Boton para enviar-->
@@ -256,12 +277,47 @@
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5591.688152541087!2d-100.45091647596755!3d20.710118679635308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35765a7f23ad9%3A0xed83c5ec38ee2a07!2sAltitud+Inmobiliaria!5e0!3m2!1ses!2smx!4v1463407605310" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 		<div class="row">
 			<div class="col-lg-6">
+				<img id="logo" src="assets/images/logo.png">
 			</div>
 			<div class="col-lg-6">
+				<h3>
+					Teléfono </br>
+					(442) 161.2027 ext.101 </br>
+					</br>
+					Correo </br>
+					contacto@altitudinmobiliaria.com.mx
+					</br>
+					</br>
+					Dirección </br>
+					Clemencia Borja Taboada No.512 Int.108 </br>
+					Colonia jurica Acueducto</br>
+					Juriquilla, Querétaro</br>
+					C.P. 76230
+				</h3>
 			</div>
 		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 	    <!--Final Sección contácto -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

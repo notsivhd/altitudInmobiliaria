@@ -53,3 +53,4 @@ function backToNormal4(){
 	x.style.color = "white";
 	x.style.textShadow ="3px 3px #585858"
 }
+/*Lo de arriba ya no sirve lo termine haciendo con hovers*/
