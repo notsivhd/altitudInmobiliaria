@@ -96,12 +96,9 @@
 	    <!--Fin de inicio-->
 
 	    <!--Inicio de la sección nosotros-->
-	    <br>
-	    <br>
-	    <br>
-	    <br>
-	    <br>
-	    <br>
+	    <!--Separador -->
+	    <div id="separador1" class="container">
+	    </div>
 	    <div id="nosotros1">
 	    	<h3>Somos una empresa joven e innovadora,</br>
 	    	dedicada a la planeación, desarrollo</br>	
@@ -149,23 +146,12 @@
 	    		</h4>
 	    	</div>
 	    </div>
-	    <br>
-	   	<br>
-	   	<br>
-	   	<br>
-	   	<br>
-	   	<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+	    <!--Separador -->
+	    <div id="separador2" class="container">
+	    </div>
 	   	<h1 id="equipo">
 	   		EQUIPO
 	   	</h1>
-	   	<br>
-	   	<br>
 	   	<br>
 	   	<div class="row">
 	   		<div id="equipo1" class="col-xs-6 col-md-4">
@@ -187,18 +173,9 @@
 	   			</h4>
 	   		</div>
 	   	</div>
-	    <br>
-	    <br>
-	    <br>
-	    <br>
-	    <br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+	    <!--Separador -->
+	    <div id="separador3" class="container">
+	    </div>
 	    <!--Inicio slider de imagenes -->
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		    <!-- Indicators -->
@@ -239,8 +216,29 @@
 		    </a>
 		</div>
 	    <!--Final de slider de imagenes -->
+	    <!--Separador -->
+	    <div class="container" id="separador4">
+	    </div>
 	    <h2 id="title">PROYECTOS INMOBILIARIOS</h2>
 	    <!--Inicio Slider 2 -->
+	    <div class="swiper-container">
+	    	<div class="swiper-wrapper">
+	    		<div class="swiper-slide">
+	    			<img src="assets/images/screenSwiper.png">
+	    		</div>
+	    		<div class="swiper-slide">
+	    			<img src="assets/images/screenSwiper.png">
+	    		</div>
+	    		<div class="swiper-slide">
+	    			<img src="assets/images/screenSwiper.png">
+	    		</div>
+	    	</div>
+	    	<!-- Add Pagination -->
+        	<div class="swiper-pagination swiper-pagination-white"></div>
+        	<!-- Navigation -->
+        	<div class="swiper-button-next swiper-button-white"></div>
+        	<div class="swiper-button-prev swiper-button-white"></div>
+	    </div>
 	    <!--FInal Slider 2 -->
 	    <!--Inicio imagen que parece laberinto o sección valor en-->
 	    <div class="container-fluid">
@@ -277,14 +275,9 @@
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5591.688152541087!2d-100.45091647596755!3d20.710118679635308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35765a7f23ad9%3A0xed83c5ec38ee2a07!2sAltitud+Inmobiliaria!5e0!3m2!1ses!2smx!4v1463407605310" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+		<!--Separador-->
+		<div class="container" id="separador5">
+	    </div>
 		<div class="row">
 			<div class="col-lg-6">
 				<img id="logo" src="assets/images/logo.png">
@@ -306,20 +299,27 @@
 				</h3>
 			</div>
 		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+		<!--Separador -->
+		<div class="container" id="separador6">
+	    </div>
 	    <!--Final Sección contácto -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    	<!--Import Swiper js -->
+    	<script src="assets/js/swiper.min.js"></script>
+    	    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        // Disable preloading of all images
+        preloadImages: true,
+        // Enable lazy loading
+        lazyLoading: false
+    });
+    </script>
+
 	</body>
 </html>

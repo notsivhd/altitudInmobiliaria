@@ -54,3 +54,13 @@ function backToNormal4(){
 	x.style.textShadow ="3px 3px #585858"
 }
 /*Lo de arriba ya no sirve lo termine haciendo con hovers*/
+/*var swiper = new Swiper('.swiper-container', {
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        // Disable preloading of all images
+        preloadImages: false,
+        // Enable lazy loading
+        lazyLoading: true
+    });*/
