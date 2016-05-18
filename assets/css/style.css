@@ -241,3 +241,14 @@ h4{
 #separador6{
   margin-top: 20%;
 }
+/*Mas estilos para las letras*/
+#gala{
+  font-family: 'Gotham',sans-serif;
+  color: #DCF710;
+  text-align: center;
+}
+#descripGala{
+  font-family: 'Gotham',sans-serif;
+  color: #FFFFFF;
+  text-align: center;
+}
