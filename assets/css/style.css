@@ -252,3 +252,18 @@ h4{
   color: #FFFFFF;
   text-align: center;
 }
+#footer{
+  background-color: #000000;
+}
+/*Slider styles*/
+.swiper-container2 {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.swiper-slide2 {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}

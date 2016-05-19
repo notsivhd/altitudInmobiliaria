@@ -253,6 +253,21 @@
 	    <!--Fin imagen que parece laberinto -->
 	    <!--Fin de la sección nosotros-->
 	    <!--Inicio sección lo que hacemos -->
+	    <div class="swiper-container2">
+	    	<div class="swiper-wrapper">
+	    		<div class="swiper-slide2" style="background-image:url(http://lorempixel.com/600/600/nature/1)">
+	    			<!--Aqui va el contenido -->
+	    		</div>
+	    		<div class="swiper-slide2" style="background-image:url(http://lorempixel.com/600/600/nature/1)">
+	    			<!--Aqui va el contenido -->
+	    		</div>
+	    		<div class="swiper-slide2" style="background-image:url(http://lorempixel.com/600/600/nature/1)">
+	    			<!--Aqui va el contenido -->
+	    		</div>
+	    	</div>
+	    	<!--Agregamos paginación -->
+	    	<div class="swiper-pagination"></div>
+	    </div>
 	    <!--Final sección lo que hacemos -->
 	    <!--Inicio Sección contácto -->
 	    <div class="row">
@@ -308,6 +323,10 @@
 		<!--Separador -->
 		<div class="container" id="separador6">
 	    </div>
+	    <!-- -->
+	    <div class="row" id="footer" align="center">
+	    	<h4>ALTITUD INMOBILIARIA, OPERADORA DE PROYECTOS ALTI S.A. DE C.V. TODOS LOS DERECHOS RESERVADOS. MÉXICO 2016</h4>
+	    </div>
 	    <!--Final Sección contácto -->
 	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -324,6 +343,21 @@
         preloadImages: true,
         // Enable lazy loading
         lazyLoading: false
+    });
+
+        var swiper2 = new Swiper('.swiper-container2', {
+        pagination: '.swiper-pagination',
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflow: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true
+        }
     });
     </script>
 
