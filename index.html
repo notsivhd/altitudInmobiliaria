@@ -176,7 +176,7 @@
 	    <!--Separador -->
 	    <div id="separador3" class="container">
 	    </div>
-	    <!--Inicio slider de imagenes -->
+	    <!--Inicio slider de imagenes  de bootstrap-->
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		    <!-- Indicators -->
 		    <ol class="carousel-indicators">
@@ -220,7 +220,7 @@
 	    <div class="container" id="separador4">
 	    </div>
 	    <h2 id="title">PROYECTOS INMOBILIARIOS</h2>
-	    <!--Inicio Slider 2 -->
+	    <!--Inicio Slider 2 de otro co-->
 	    <div class="swiper-container">
 	    	<div class="swiper-wrapper">
 	    		<div class="swiper-slide">
@@ -253,22 +253,24 @@
 	    <!--Fin imagen que parece laberinto -->
 	    <!--Fin de la sección nosotros-->
 	    <!--Inicio sección lo que hacemos -->
-	    <div class="swiper-container2">
+	    <div id="swiper2" class="swiper-container swiper2">
 	    	<div class="swiper-wrapper">
-	    		<div class="swiper-slide2" style="background-image:url(http://lorempixel.com/600/600/nature/1)">
+	    		<div id="swiper-slide1" class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/1)">
 	    			<!--Aqui va el contenido -->
 	    		</div>
-	    		<div class="swiper-slide2" style="background-image:url(http://lorempixel.com/600/600/nature/1)">
+	    		<div id="swiper-slide2" class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/2)">
 	    			<!--Aqui va el contenido -->
 	    		</div>
-	    		<div class="swiper-slide2" style="background-image:url(http://lorempixel.com/600/600/nature/1)">
+	    		<div id="swiper-slide3" class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/3)">
 	    			<!--Aqui va el contenido -->
 	    		</div>
 	    	</div>
 	    	<!--Agregamos paginación -->
-	    	<div class="swiper-pagination"></div>
+	    	<div class="swiper-pagination swiper-pagination2"></div>
 	    </div>
 	    <!--Final sección lo que hacemos -->
+	    <div class="container" id="separador4">
+	    </div>
 	    <!--Inicio Sección contácto -->
 	    <div class="row">
 	    	<div class="col-lg-6">
@@ -345,8 +347,8 @@
         lazyLoading: false
     });
 
-        var swiper2 = new Swiper('.swiper-container2', {
-        pagination: '.swiper-pagination',
+        var swiper2 = new Swiper('.swipper2', {
+        pagination: '.swiper-pagination2',
         effect: 'coverflow',
         grabCursor: true,
         centeredSlides: true,
