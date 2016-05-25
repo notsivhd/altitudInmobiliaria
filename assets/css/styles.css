@@ -36,43 +36,6 @@
 }
 /*Fin de importar los fonts feos que me marcan error*/
 
-/*Estilos para los letreros de inicio que cambian de color, manejados separados por que individualmente deben de cambiar de color t(°-°)t*/
-#inicio{
-  font-family: 'Gotham',sans-serif;
-  font-size: 600%;
-  margin-left: 15%;
-  color: white;
-  text-shadow: 3px 3px #585858;
-}
-#inicio1{
-  font-family: 'Gotham',sans-serif;
-  font-size: 600%;
-  margin-left: 15%;
-  color: white;
-  text-shadow: 3px 3px #585858;
-}
-#inicio2{
-  font-family: 'Gotham',sans-serif;
-  font-size: 600%;
-  margin-left: 15%;
-  color: white;
-  text-shadow: 3px 3px #585858;
-}
-#inicio3{
-  font-family: 'Gotham',sans-serif;
-  font-size: 600%;
-  margin-left: 15%;
-  color: white;
-  text-shadow: 3px 3px #585858;
-}
-#inicio4{
-  font-family: 'Gotham',sans-serif;
-  font-size: 600%;
-  margin-left: 15%;
-  color: white;
-  text-shadow: 3px 3px #585858;
-}
-/*Fin de estilos para los letreros*/
 
 /*Esto es solo para que no aparezca la raya fea del hipervinculo*/
 a.nounderline:link   
@@ -282,4 +245,51 @@ h4{
   background-size: cover;
   width: 100px;
   height: 100px;
+}
+/*Nueva sección nosotros*/
+/*Primera parte*/
+/*Segunda parte*/
+#somosDos{
+  background-color: #2C2C2C;
+}
+#imagenSecDos{
+  width: 500px;
+  height:350px;
+}
+#logoIconAmarillo{
+  width: 150px;
+  height: 150px;
+  margin-left: 30%;
+}
+#HenryLema{
+  font-family: 'Gotham',sans-serif;
+  color: #FFFFFF;
+  margin-left: 0%;
+}
+#HenryNombre{
+  font-family: 'Gotham',sans-serif;
+  color: #FFFFFF;
+  margin-left: 70%;
+}
+/*Tercera parte*/
+#LetraTeam{
+  font-family: 'Gotham',sans-serif;
+  font-size: 600%;
+  margin-left: 15%;
+  color: #DCF710;
+  text-shadow: 3px 3px #585858;
+}
+#MenTeam{
+  font-family: 'Gotham',sans-serif;
+  color: #FFFFFF;
+  margin-left: 15%;
+}
+#MenTeam1{
+  font-family: 'Gotham',sans-serif;
+  color: #FFFFFF;
+  margin-left: 15%;
+}
+#ImageTeam{
+  height: 430px ;
+  width: 100%;
 }
