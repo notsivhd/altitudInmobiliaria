@@ -107,7 +107,32 @@
         <!--Sección quienes somos -->
 
         <!--Primera sección (carrusel de imagenes)-->
+        <!--Start swiper -->
+            <div class="row">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/1)"></div>
+                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/2)"></div>
+                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/3)"></div>
+                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/4)"></div>
+                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/5)"></div>
+                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/6)"></div>
+                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/7)"></div>
+                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/8)"></div>
+                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/9)"></div>
+                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/10)"></div>
+                    </div>
+                    <!--Agregamos paginación -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <!--End swiper -->
         <!--Fin de la primera seccion -->
+
+        <!--Separador-->
+        <div id="separador1" class="container">
+        </div>
+        <!--Fin separador -->
 
         <!--Segunda sección -->
         <div id="somosDos"class="row">
@@ -126,7 +151,7 @@
             </div>
         </div>
         <!--Fin de la Segunda seccion -->
-
+            
         <!--Separador-->
         <div id="separador1" class="container">
         </div>
@@ -169,5 +194,26 @@
         <!--Fin separador -->
 
         <!--Fin de la sección quienes somos -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!--Import Swiper js -->
+        <script src="assets/js/swiper.min.js"></script>
+        <!-- Initialize Swiper -->
+        <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflow: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows : true
+            }
+        });
+        </script>
     </body>
 </html>
