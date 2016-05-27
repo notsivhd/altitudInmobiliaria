@@ -294,3 +294,31 @@ h4{
   height: 430px ;
   width: 100%;
 }
+/* posición para la imagen de la barra de menú*/
+#navIcon{
+  width: 42px;
+  height: 42px;
+  position: relative;
+  left: 1100px;
+  top: 4px;
+}
+/*Estilos para las letras de la sección valor*/
+#inicio{
+  margin-left: 30%;
+  font-size: 370%;
+}
+#plusSimbol{
+  margin-left: 60%;
+  font-size: 430%;
+}
+#inicio1{
+  margin-left: 20%;
+  font-size: 370%;
+}
+#plusSimbol1{
+  margin-left: 30%;
+  font-size: 430%;
+}
+#inicio2{
+  font-size: 370%;
+}

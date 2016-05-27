@@ -2,34 +2,34 @@
 function colorFunction(){
 	var x = document.getElementById("inicio");
 	    x.style.color = "#DCF710";
-	    x.style.textShadow ="0px 0px #FFFFFF"; 
+	    /*x.style.textShadow ="0px 0px #FFFFFF";*/
 }
 function backToNormal(){
 	var x = document.getElementById("inicio");
 	x.style.color = "white";
-	x.style.textShadow ="3px 3px #585858";
+	/*x.style.textShadow ="3px 3px #585858";*/
 }
 /*Function for the 2*/
 function colorFunction1(){
 	var x = document.getElementById("inicio1");
 	    x.style.color = "#DCF710";
-	    x.style.textShadow ="0px 0px #FFFFFF"; 
+	    /*x.style.textShadow ="0px 0px #FFFFFF";*/ 
 }
 function backToNormal1(){
 	var x = document.getElementById("inicio1");
 	x.style.color = "white";
-	x.style.textShadow ="3px 3px #585858"
+	/*x.style.textShadow ="3px 3px #585858"*/
 }
 /*Function for the 3*/
 function colorFunction2(){
 	var x = document.getElementById("inicio2");
 	    x.style.color = "#DCF710"; 
-	    x.style.textShadow ="0px 0px #FFFFFF";
+	    /*x.style.textShadow ="0px 0px #FFFFFF";*/
 }
 function backToNormal2(){
 	var x = document.getElementById("inicio2");
 	x.style.color = "white";
-	x.style.textShadow ="3px 3px #585858"
+	/*x.style.textShadow ="3px 3px #585858"*/
 }
 /*Function for the 4*/
 function colorFunction3(){
