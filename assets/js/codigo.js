@@ -61,3 +61,16 @@ function backToNormal4(){
 	x.style.color = "white";
 	x.style.textShadow ="3px 3px #585858"
 }
+/*Funciones que hacen aparecer el texto en la sección de expertise*/
+function textApearPlaneacion(){
+	var x = document.getElementById("planeacionText").innerHTML = 'Seleccionamos reservas, territoriales, hacemos estudios'+"<br>"+'de mercado y evaluaciones generales que nos permitan'
+																	+"<br>"+'desarrollar tácticas generales enfocadas en la correcta'+"<br>"+'asignación de recursos, que permitan establecer '+"<strong>"+
+																	'planes'+"<br>"+'estratégicos a detalle, confiables y de fácil medición'+"</strong>";
+}
+function textApearDireccion(){
+	var x = document.getElementById("direccionText").innerHTML = 'Apostamos siempre por la reflexión, los conocimientos,'+"<br>"+'la mejora continua, apertura al cambio y la creatividad'
+																	+"<br>"+'en áreas de fortalecer la capacidad de adaptación y de'+"<br>"+'innovación, con el fin de tener siempre un marco'
+																	+"<br>"+'confiable para la toma de decisiones. Nuestros proyec-'+"<br>"+'tos son administrados siempre bajo '+"<strong>"+
+																	'las mejores prácti-'+"<br>"+'cas comerciales y de metodologías de "Administración'+"<br>"+'Profesional de Proyectos" (APP)'
+																	+"</strong>"+', siempre enfocado al'+"<br>"+'cumplimiento de objetivos.';
+}

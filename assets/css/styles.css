@@ -205,6 +205,9 @@ h4{
 #separador2{
   margin-top: 20%;
 }
+#separador3{
+  margin-top: 5%;
+}
 /*Mas estilos para las letras*/
 #gala{
   font-family: 'Gotham',sans-serif;
@@ -257,6 +260,7 @@ h4{
   width: 150px;
   height: 150px;
   margin-left: 30%;
+  margin-top: 2%;
 }
 #HenryLema{
   font-family: 'Gotham',sans-serif;
@@ -320,4 +324,18 @@ h4{
 }
 #cuadro{
   margin-left: 30%;
+}
+/*Estilos para la zona de expertise*/
+#planeacion{
+  height: 200px;
+  width: 200px;
+  margin-left: 20%;
+}
+#proyectos{
+  height: 200px;
+  width: 200px;
+  margin-left: 20%;
+}
+#planeacionText{
+  margin-top: 10%;
 }
