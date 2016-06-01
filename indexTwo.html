@@ -14,6 +14,7 @@
         <link href="assets/images/icon.ico" rel='shortcut icon'>
         <!--Import stylesheet-->
         <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/bounce.css">
         <!--Import bootstrap-->
         <link rel="stylesheet" href="assets/css/bootstrap.min.css">}
         <!--Import fonts fom google -->
@@ -47,16 +48,22 @@
                             <a href="#inicio">INICIO</a>
                         </li>
                         <li>
-                            <a href="#nosotros">NOSOTROS</a>
+                            <a href="#somos">QUIÉNES SOMOS</a>
                         </li>
                         <li>
-                            <a href="#creamos">CREAMOS</a>
+                            <a href="#expertise">EXPERTISE</a>
                         </li>
                         <li>
-                            <a href="#valor">VALOR EN</a>
+                            <a href="#valor">VALOR</a>
                         </li>
                         <li>
-                            <a href="#loquehacemos">LO QUE HACEMOS</a>
+                            <a href="#proyectos">PROYECTOS</a>
+                        </li>
+                        <li>
+                            <a href="#socios">SOCIOS</a>
+                        </li>
+                        <li>
+                            <a href="#prensa">PRENSA</a>
                         </li>
                         <li>
                             <a id="contacto" href="#contacto">CONTÁCTANOS</a>
@@ -112,16 +119,10 @@
             <div class="row">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/1)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/2)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/3)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/4)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/5)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/6)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/7)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/8)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/9)"></div>
-                        <div class="swiper-slide" style="background-image:url(http://lorempixel.com/600/600/nature/10)"></div>
+                        <div class="swiper-slide"><img id="cuadro" src="assets/images/AI_QuienesSomosC1.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/AI_QuienesSomosC2_Altitud.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/AI_QuienesSomosC2_Mision.png"></div>
+                        <div class="swiper-slide"><img src="assets/images/AI_QuienesSomosC2_Valores.png"></div>
                     </div>
                     <!--Agregamos paginación -->
                     <div class="swiper-pagination"></div>
@@ -250,21 +251,21 @@
         <!--Import Swiper js -->
         <script src="assets/js/swiper.min.js"></script>
         <!-- Initialize Swiper -->
-        <script>
-        var swiper = new Swiper('.swiper-container', {
-            pagination: '.swiper-pagination',
-            effect: 'coverflow',
-            grabCursor: true,
-            centeredSlides: true,
-            slidesPerView: 'auto',
-            coverflow: {
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows : true
-            }
-        });
-        </script>
+    <script>
+ var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflow: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 1,
+            slideShadows : true
+        }
+    });
+    </script>
     </body>
 </html>

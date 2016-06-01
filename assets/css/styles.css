@@ -80,6 +80,9 @@ h4{
   width: 150px;
   margin-left: 25%;
 }
+#contacto{
+  color: #DCF710;
+}
 /*Solo para dar posición al texto*/
 #mision{
   margin-left: 15%;
@@ -179,34 +182,27 @@ h4{
   margin-top: 7%;
 }
 /* Style for the first slider (slider nosotros) slider*/
-.swiper-container {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-}
+    .swiper-container {
+      width: 50%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .swiper-slide {
+      padding-bottom:0px;
+      padding-left:0px;
+      padding-right:0px;
+      padding-top:0px;
+      background-position: center;
+      background-size: cover;
+      width: 3023px;
+      height: 2008px;
+    }
+  
 /*Separadores, para los espacios entre sección y sección*/
 #separador1{
   margin-top: 20%;
 }
 #separador2{
-  margin-top: 20%;
-}
-#separador3{
-  margin-top: 20%;  
-}
-#separador4{
-  margin-top: 20%;
-}
-#separador5{
-  margin-top: 20%;
-}
-#separador6{
   margin-top: 20%;
 }
 /*Mas estilos para las letras*/
@@ -321,4 +317,7 @@ h4{
 }
 #inicio2{
   font-size: 370%;
+}
+#cuadro{
+  margin-left: 30%;
 }
