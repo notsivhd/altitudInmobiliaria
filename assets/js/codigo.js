@@ -74,3 +74,18 @@ function textApearDireccion(){
 																	'las mejores prácti-'+"<br>"+'cas comerciales y de metodologías de "Administración'+"<br>"+'Profesional de Proyectos" (APP)'
 																	+"</strong>"+', siempre enfocado al'+"<br>"+'cumplimiento de objetivos.';
 }
+function textApearProyectos(){
+	var x = document.getElementById("proyectosText").innerHTML = 'Realizamos y coordinamos los diseños arquitectónicos'+"<br>"+'e ingenierías necesarias para la completa ejecución de'+"<br>"+
+																  'diversos negocios inmobiliarios. '+"<strong>"+'Siempre desde un'+"<br>"+'enfoque de mercado, rentabilidad y responsabilidad'
+																  +"<br>"+'con el entorno'+"</strong>";
+}
+function textApearSupervision(){
+	var x = document.getElementById("supervisionText").innerHTML = 'Realizamos de manera directa obras de edificación,'+"<br>"+'urbanización y equipamentos para desarrollos inmobi-'
+																	+"<br>"+'liarios. Siempre con las mejores practicas de super-'+"<br>"+'visión, administración y '+"<strong>"+'un alto compromiso con la'
+																	+"<br>"+'calidad en todo lo que hacemos.'+"</strong>";
+}
+/*Funcion para que la flecha de el footer cambie de color cuando le pasas el mouse por encima*/
+function imageFunction(){
+	var image = getElementById("imageFooterSlide");
+	image.src = "assets/images/AI_Flecha_B.png";
+}

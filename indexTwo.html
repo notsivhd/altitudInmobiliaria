@@ -25,6 +25,8 @@
         <link rel="stylesheet" href="assets/css/swiper.min.css">
         <!--Import functionality -->
         <script type="text/javascript" src="assets/js/codigo.js"></script>
+        <!-- -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     </head>
 
     <body id="body">
@@ -111,16 +113,19 @@
         <!--Primera sección (carrusel de imagenes)-->
         <!--Start swiper -->
             <div class="row">
-                <div class="swiper-container">
+                <!--<div class="swiper-container">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide"><img id="cuadro" src="assets/images/AI_QuienesSomosC1.png"></div>
                         <div class="swiper-slide"><img src="assets/images/AI_QuienesSomosC2_Altitud.png"></div>
                         <div class="swiper-slide"><img src="assets/images/AI_QuienesSomosC2_Mision.png"></div>
                         <div class="swiper-slide"><img src="assets/images/AI_QuienesSomosC2_Valores.png"></div>
-                    </div>
+                    </div> -->
                     <!--Agregamos paginación -->
-                    <div class="swiper-pagination"></div>
-                </div>
+                    <!--<div class="swiper-pagination"></div>
+                </div>-->
+                <h1 align="center">
+                    SLIDER EN CONSTRUCCIÓN
+                </h1>
             </div>
             <!--End swiper -->
         <!--Fin de la primera seccion -->
@@ -192,29 +197,42 @@
         <!--Fin de la sección quienes somos -->
 
         <!--Sección expertise -->
-        <div class="row">
-            <div class="col-md-2" onmouseover="textApearPlaneacion()">
-                <img id="planeacion" src="assets/images/AltitudInmobiliaria_IconoPlaneación.png" class="img-circle">
+        <div class="container" id="expertise">
+            <div class="row">
+                <div id="divPlaneacionImagen" name="divPlaneacionImagen" class="col-md-2" onmouseover="textApearPlaneacion()">
+                    <img id="planeacion" src="assets/images/AI_Planeacion_IC.png" class="img-circle">
+                </div>
+                <div class="col-md-4">
+                    <h4 id="planeacionText">
+                    </h4>
+                </div>
+                <div id="divDireccionImagen" name="divDireccionImagen" class="col-md-2" onmouseover="textApearDireccion()">
+                    <img id="direccion" src="assets/images/AI_Direccion_IC.png" class="img-circle">
+                </div>
+                <div class="col-md-4">
+                    <h4 id="direccionText">
+                    </h4>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h4 id="planeacionText">
-                </h4>
+            <!--Separador-->
+            <div id="separador3" class="container">
             </div>
-            <div class="col-md-2" onmouseover="textApearDireccion()">
-                <img id="proyectos" src="assets/images/AltitudInmobiliaria_IconoDireccion.png" class="img-circle">
-            </div>
-            <div class="col-md-4">
-                <h4 id="direccionText">
-                </h4>
-            </div>
-        </div>
-        <!--Separador-->
-        <div id="separador3" class="container">
-        </div>
-        <!--Fin separador -->
-        <div class="row">
-            <div class="col-md-2" onmouseover="textApearProyectos()">
-                <img id="proyectos" src="assets/images/AltitudInmobiliaria_IconoProyectos.png" class="img-circle">
+            <!--Fin separador -->
+            <div class="row">
+                <div id="divProyectosImagen" name="divProyectosImagen" class="col-md-2" onmouseover="textApearProyectos()">
+                    <img id="proyectos" src="assets/images/AI_Proyectos_IC.png" class="img-circle">
+                </div>
+                <div class="col-md-4">
+                    <h4 id="proyectosText">
+                    </h4>
+                </div>
+                <div id="divSupervisionImagen" name="divSupervisionImagen" class="col-md-2" onmouseover="textApearSupervision()">
+                    <img id="supervision" src="assets/images/AI_Supervision_IC.png" class="img-circle">
+                </div>
+                <div class="col-md-4">
+                    <h4 id="supervisionText">
+                    </h4>
+                </div>
             </div>
         </div>
         <!--Fin de la sección expertise -->
@@ -273,25 +291,118 @@
         </div>
         <!--Fin separador -->
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <!--Slider Proyectos -->
+        <h1 id="seccionProyectos" align="center">
+            SECCIÓN DE PROYECTOS EN CONSTRUCCIÓN
+        </h1>
+        <!--Final del slider de proyectos-->
+
+        <!--Separador-->
+        <div id="separador1" class="container">
+        </div>
+        <!--Fin separador -->
+
+        <div  class="row">
+            <div class="col-lg-6">
+                <img id="logo" src="assets/images/logo.png">
+            </div>
+            <div class="col-lg-6">
+                <h3>
+                    Teléfono </br>
+                    (442) 161.2027 ext.101 </br>
+                    </br>
+                    Correo </br>
+                    contacto@altitudinmobiliaria.com.mx
+                    </br>
+                    </br>
+                    Dirección </br>
+                    Clemencia Borja Taboada No.512 Int.108 </br>
+                    Colonia jurica Acueducto</br>
+                    Juriquilla, Querétaro</br>
+                    C.P. 76230
+                </h3>
+            </div>
+        </div>
+        <!--Separador-->
+        <div id="separador1" class="container">
+        </div>
+        <!--Fin separador -->
+        <div class="row" id="footer1" align="center">
+            <h4>ALTITUD INMOBILIARIA, OPERADORA DE PROYECTOS ALTI S.A. DE C.V. TODOS LOS DERECHOS RESERVADOS. MÉXICO 2016</h4>
+        </div>
+
+        <!--Inicio de la sección de contacto en barra inferior desplegable con jquery -->
+        <div id="footer_button" >
+            <img id="imageFooterSlide" onmouseover="imageFunction()" onmouseout="backToYellow()" src="assets/images/AI_Flecha_A.png">
+        </div>
+        <div id="footer_higher">
+            <div id="footer_content">
+                <div class="col-lg-6">
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputNombre" aria-required="true" placeholder="Nombre" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail" aria-required="true" placeholder="Email" required>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <textarea id="inputMensaje" class="form-control" name="message" cols="45" rows="3" aria-required="true" placeholder="Mensaje" required></textarea>
+                        </div>
+                    </div>
+                    <!--Boton para enviar-->
+                    <button id="botonEnviar" type="submit" class="btn btn-warning">ENVIAR</button>
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5591.688152541087!2d-100.45091647596755!3d20.710118679635308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d35765a7f23ad9%3A0xed83c5ec38ee2a07!2sAltitud+Inmobiliaria!5e0!3m2!1ses!2smx!4v1463407605310" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <!--Fin de la sección de contacto para en barra inferior desplegable -->
+        <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
         <!--Import Swiper js -->
         <script src="assets/js/swiper.min.js"></script>
         <!-- Initialize Swiper -->
     <script>
- var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-        slidesPerView: 'auto',
-        coverflow: {
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows : true
-        }
+    //El comando a continuación es para ver strings en consola
+    //console.log("");
+        $("#divPlaneacionImagen").one("mouseover",function(){
+            $( "#divPlaneacionImagen" ).hide().fadeIn( 2000, function() {
+            });
+        });
+        $("#divDireccionImagen").one("mouseover",function(){
+            $( "#divDireccionImagen" ).hide().fadeIn( 2000, function() {
+            });
+        });
+        $("#divProyectosImagen").one("mouseover",function(){
+            $( "#divProyectosImagen" ).hide().fadeIn( 2000, function() {
+            });
+        });
+        $("#divSupervisionImagen").one("mouseover",function(){
+            $( "#divSupervisionImagen" ).hide().fadeIn( 2000, function() {
+            });
+        });
+
+jQuery(function($) {
+        var slide = false;
+        var height = $('#footer_content').height();
+        $('#footer_button').click(function() {
+            var docHeight = $(document).height();
+            var windowHeight = $(window).height();
+            var scrollPos = docHeight - windowHeight + height;
+            $('#footer_content').animate({ height: "toggle"}, 1000);
+            if(slide == false) {
+                console.log("Hola");
+                $('html').animate({scrollTop: scrollPos+'px'}, 1000);
+            }
+        });
     });
     </script>
     </body>
