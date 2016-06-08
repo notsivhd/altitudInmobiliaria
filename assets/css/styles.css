@@ -374,14 +374,13 @@ h4{
     padding: 30px;
     height: 1000px;
   }
-  #footer_button {
-    width: 980px;
-    margin: 0 auto;
-    cursor: pointer;
-  }
   #imageFooterSlide{
     width: 100px;
     height: 100px;
+    margin-left: 91%;
+    /*position: fixed;*/
+    z-index: 5;
+    cursor: pointer;
   }
   #footer_higher {
     width:100%;

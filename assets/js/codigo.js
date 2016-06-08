@@ -85,7 +85,11 @@ function textApearSupervision(){
 																	+"<br>"+'calidad en todo lo que hacemos.'+"</strong>";
 }
 /*Funcion para que la flecha de el footer cambie de color cuando le pasas el mouse por encima*/
-function imageFunction(){
-	var image = getElementById("imageFooterSlide");
+function imageFunctionArrow(){
+	var image = document.getElementById("imageFooterSlide");
 	image.src = "assets/images/AI_Flecha_B.png";
+}
+function backToYellow(){
+	var image = document.getElementById("imageFooterSlide");
+	image.src = "assets/images/AI_Flecha_A.png";
 }
