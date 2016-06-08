@@ -379,8 +379,8 @@ footer{
     height: 1000px;
   }
   #imageFooterSlide{
-    width: 100px;
-    height: 100px;
+    width: 35px;
+    height: 35px;
     margin-left: 91%;
     position: fixed;
     z-index: 5;

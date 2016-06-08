@@ -399,9 +399,6 @@ jQuery(function($) {
             var windowHeight = $(window).height();
             var scrollPos = docHeight - windowHeight + height;
             $('#footer_content').animate({ height: "toggle"}, 1000);
-            if(slide == false) {
-                $('html').animate({scrollTop: scrollPos+'px'}, 1000);
-            }
         });
     });
     </script>
