@@ -1,27 +1,27 @@
 /* Estilo para la barrita que sale debajo del navigation menú*/
 .nav li:hover:nth-child(8n+1), .nav li.active:nth-child(8n+1){
-  border-bottom: #DCF710 3px solid;
+  border-bottom: #FFFF00 3px solid;
 }
 .nav li:hover:nth-child(8n+2), .nav li.active:nth-child(8n+2){
-  border-bottom: #DCF710 3px solid;
+  border-bottom: #FFFF00 3px solid;
 }
 .nav li:hover:nth-child(8n+3), .nav li.active:nth-child(8n+3){
-  border-bottom: #DCF710 3px solid;
+  border-bottom: #FFFF00 3px solid;
 }
 .nav li:hover:nth-child(8n+4), .nav li.active:nth-child(8n+4){
-  border-bottom: #DCF710 3px solid;
+  border-bottom: #FFFF00 3px solid;
 }
 .nav li:hover:nth-child(8n+5), .nav li.active:nth-child(8n+5){
-  border-bottom: #DCF710 3px solid;
+  border-bottom: #FFFF00 3px solid;
 }
 .nav li:hover:nth-child(8n+6), .nav li.active:nth-child(8n+6){
-  border-bottom: #DCF710 3px solid;
+  border-bottom: #FFFF00 3px solid;
 }
 .nav li:hover:nth-child(8n+7), .nav li.active:nth-child(8n+7){
-  border-bottom: #DCF710 3px solid;
+  border-bottom: #FFFF00 3px solid;
 }
 .nav li:hover:nth-child(8n+8), .nav li.active:nth-child(8n+8){
-  border-bottom: #DCF710 3px solid;
+  border-bottom: #FFFF00 3px solid;
 }
 
 
@@ -90,7 +90,7 @@ footer{
   margin-left: 25%;
 }
 #contacto{
-  color: #DCF710;
+  color: #FFFF00;
 }
 #expertise{
   width: 100%;
@@ -116,7 +116,7 @@ footer{
   font-family: 'Gotham',sans-serif;
   font-size: 500%;
   margin-left: 15%;
-  color: #DCF710;
+  color: #FFFF00;
 }
 /*Solo para dar posición al texto*/
 #equipo1{
@@ -132,8 +132,8 @@ footer{
 }
 /*Es para darle tamaño al contenedor de la imagen, el overflow es para ocultar una parte de la imagen*/
 .pictureContainer {
-    height: 69px;
-    width: 1200px;
+    height: 77px;
+    width: 1250px;
     overflow: hidden;
 }
 .pictureContainer img {
@@ -142,20 +142,21 @@ footer{
 }
 /*Cuando se pase el mouse sobre la imagen la imagen cambiara*/
 .pictureContainer img:hover {
-    transform: translate3d(0px, -69px, 0px);
+    transform: translate3d(0px, -70px, 0px);
 }
 /*Para aumentar el tamaño de la imagen*/
 #pictureUs{
-  width: 800px;
-  height: 145px;
+  width: 1100px;
+  height: 140px; 
 }
 #pictureCreate{
   width: 1100px;
-  height: 145px;
+  height: 140px;
 }
 #pictureValue{
   width: 1200px;
   height: 145px;
+  margin-left: 2%;
 }
 #pictureDo{
   width: 1100px;
@@ -163,7 +164,8 @@ footer{
 }
 #pictureEnloque{
   width: 200px;
-  height: 50px;
+  height: 60px;
+  margin-left: 2%;
 }
 #title{
   font-family: 'Gotham',sans-serif;
@@ -190,8 +192,14 @@ footer{
 }
 /*Estilos logo para la parte de contacto*/
 #logo{
-  margin-left: 5%;
-  margin-top: 7%;
+  width: 400px;
+}
+#mapa{
+  width: 100%;
+  height: 350px;
+}
+#textContacto{
+  margin-left: 2%;
 }
 /* Style for the first slider (slider nosotros) slider*/
     .swiper-container {
@@ -220,10 +228,13 @@ footer{
 #separador3{
   margin-top: 5%;
 }
+#separadorContacto{
+  margin-top: 10%;
+}
 /*Mas estilos para las letras*/
 #gala{
   font-family: 'Gotham',sans-serif;
-  color: #DCF710;
+  color: #FFFF00;
   text-align: center;
 }
 #descripGala{
@@ -265,32 +276,33 @@ footer{
   background-color: #2C2C2C;
 }
 #imagenSecDos{
-  width: 500px;
-  height:350px;
+  height: auto;
+  max-height: 350px;
+  width: 100%;
 }
 #logoIconAmarillo{
-  width: 150px;
-  height: 150px;
-  margin-left: 30%;
-  margin-top: 2%;
+  width: 100px;
+  height: 100px;
+  margin-top: 6%;
+  margin-left: 38%;
 }
 #HenryLema{
   font-family: 'Gotham',sans-serif;
   color: #FFFFFF;
-  margin-left: 0%;
+  margin-left: 7%;
 }
 #HenryNombre{
   font-family: 'Gotham',sans-serif;
   color: #FFFFFF;
-  margin-left: 70%;
+  margin-left: 63%;
 }
 /*Tercera parte*/
 #LetraTeam{
   font-family: 'Gotham',sans-serif;
   font-size: 600%;
   margin-left: 15%;
-  color: #DCF710;
-  text-shadow: 3px 3px #585858;
+  color: #FFFF00;
+  text-shadow: 3px 3px #403D3D;
 }
 #MenTeam{
   font-family: 'Gotham',sans-serif;
@@ -303,16 +315,16 @@ footer{
   margin-left: 15%;
 }
 #ImageTeam{
-  height: 430px ;
+  height: 380px ;
   width: 100%;
 }
 /* posición para la imagen de la barra de menú*/
 #navIcon{
-  width: 42px;
-  height: 42px;
+  width: 35px;
+  height: 35px;
   position: relative;
   left: 1100px;
-  top: 4px;
+  top: 7px;
 }
 /*Estilos para las letras de la sección valor*/
 #inicio{
