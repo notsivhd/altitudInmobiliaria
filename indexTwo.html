@@ -103,6 +103,20 @@
                 </div>
             </div>
         </div>
+        <!--Separador  para bajar la barra de frases-->
+        <div id="SeparadorFrasesInicio" class="container">
+        </div>
+        <!--Fin de separador -->
+        <div class="row" id="frases">
+            <div class="col-md-12" class="col-xs-6">
+                <h3 align="center">
+                    "Las oportunidades pequeñas son el principio de las grandes empresas"                   
+                </h3>
+                <h3 id="demostenes">
+                    -Demóstenes
+                </h3>
+            </div>
+        </div>
         <!--Fin de inicio-->
         <div id="footer_button" >
             <img id="imageFooterSlide" onmouseover="imageFunctionArrow()" onmouseout="backToYellow()" src="assets/images/AI_Flecha_A.png">
@@ -249,7 +263,7 @@
                 </div>
             </div>
             <!--Separador-->
-            <div id="separador3" class="container">
+            <div id="separador4" class="container">
             </div>
             <!--Fin separador -->
             <div class="row">
@@ -269,6 +283,46 @@
                 </div>
             </div>
         </div>
+        <!--Separador para bajar la barra de frases-->
+        <div id="separador3" class="row" class="container">
+        </div>
+        <!--Fin de separador -->
+        <!--Sección de la barrita -->
+        <div id="frases" class="row">
+            <div class="col-md-12" class="col-xs-6">
+                <h3 align="center">
+                    "Al final todas las operaciones de negocios pueden ser reducidas a <br>
+                    tres palabras: gente, producto y beneficios. A menos que tengas un <br>
+                    buen equipo, no tienes mucho que hacer con las otras dos"
+                </h3>
+                <h3 id="jack">
+                    -Jack Welch.
+                </h3>
+            </div>
+        </div>
+        <!-- Fin sección barrita-->
+        <!--Separador para bajar el slider-->
+        <!--Fin del separador para bajar el slider-->
+        <!--Slider de imagenes en blanco y negro -->
+            <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+            <div class="swiper-slide">Slide 10</div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+        <!--Fin del slider de imagenes en blanco y negro -->
+
         <!--Fin de la sección expertise -->
 
         <!--Separador-->
@@ -442,6 +496,14 @@ jQuery(function($) {
             var scrollPos = docHeight - windowHeight + height;
             $('#footer_content').animate({ height: "toggle"}, 1000);
         });
+    });
+
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        slidesPerView: 3,
+        paginationClickable: true,
+        spaceBetween: 30,
+        freeMode: true
     });
     </script>
     </body>
