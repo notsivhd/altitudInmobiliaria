@@ -16,7 +16,7 @@
         <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
         <link rel="stylesheet" type="text/css" href="assets/css/bounce.css">
         <!--Import bootstrap-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">}
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
         <!--Import fonts fom google -->
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,900' rel='stylesheet' type='text/css'>
         <!--Another imports for know how works the letters part :'( -->
@@ -27,6 +27,12 @@
         <script type="text/javascript" src="assets/js/codigo.js"></script>
         <!--Import jquery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="assets/js/jquery-1.7.min.js" type="text/javascript" charset="utf-8"></script>
+        <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+        <link rel="stylesheet" type="text/css" href="assets/engine1/style.css" />
+        <script type="text/javascript" src="assets/engine1/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+    </script>
     </head>
 
     <body id="body">
@@ -47,19 +53,19 @@
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-left">
                         <li>
-                            <a href="#inicio">INICIO</a>
+                            <a href="#letrasInicio">INICIO</a>
                         </li>
                         <li>
-                            <a href="#somos">QUIÉNES SOMOS</a>
+                            <a href="#seccionInicio">QUIÉNES SOMOS</a>
                         </li>
                         <li>
                             <a href="#expertise">EXPERTISE</a>
                         </li>
                         <li>
-                            <a href="#valor">VALOR</a>
+                            <a href="#valorSeccion">VALOR</a>
                         </li>
                         <li>
-                            <a href="#proyectos">PROYECTOS</a>
+                            <a href="#seccionProyectos">PROYECTOS</a>
                         </li>
                         <li>
                             <a href="#socios">SOCIOS</a>
@@ -68,7 +74,7 @@
                             <a href="#prensa">PRENSA</a>
                         </li>
                         <li>
-                            <a id="contacto" href="#contacto">CONTÁCTANOS</a>
+                            <a id="contacto" href="#contacto2">CONTÁCTANOS</a>
                         </li>
                     </ul>
                 </div>
@@ -80,25 +86,28 @@
         <!--Inicio-->
         <br>
         <br>
+        <div class="containerpersonalizado">
         <!--La clave esta en el hidden del css -->
-        <div class="container">
-            <div class="col-md-12" class="col-xs-12">
-                <div class="title-unit">
-                    <br>
-                    <div class="pictureContainer">
-                        <img id="pictureUs" src="assets/images/AI_Nosotros.png" >
-                    </div>
-                    <div class="pictureContainer">
-                        <img id="pictureCreate" src="assets/images/AI_Creamos.png">
-                    </div>
-                    <div class="pictureContainer">
-                        <img id="pictureValue" src="assets/images/AI_Valor.png">
-                    </div>
-                    <div>
-                        <img id="pictureEnloque" src="assets/images/AI_EnLoQue_419x114.png">
-                    </div>
-                    <div class="pictureContainer">
-                        <img id="pictureDo" src="assets/images/AI_Hacemos.png">
+        <div id="letrasInicio" class="container">
+            <div class="row">
+                <div class="col-md-12" class="col-xs-6">
+                    <div class="title-unit">
+                        <br>
+                        <div class="pictureContainer">
+                            <img id="pictureUs" src="assets/images/AI_Nosotros.png" >
+                        </div>
+                        <div class="pictureContainer">
+                            <img id="pictureCreate" src="assets/images/AI_Creamos.png">
+                        </div>
+                        <div class="pictureContainer">
+                            <img id="pictureValue" src="assets/images/AI_Valor.png">
+                        </div>
+                        <div>
+                            <img id="pictureEnloque" src="assets/images/AI_EnLoQue_419x114.png">
+                        </div>
+                        <div class="pictureContainer">
+                            <img id="pictureDo" src="assets/images/AI_Hacemos.png">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -138,23 +147,36 @@
         <!--Sección quienes somos -->
 
         <!--Primera sección (carrusel de imagenes)-->
-        <!--Start swiper -->
-            <div class="row">
-                <!--<div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img id="cuadro" src="assets/images/AI_QuienesSomosC1.png"></div>
-                        <div class="swiper-slide"><img src="assets/images/AI_QuienesSomosC2_Altitud.png"></div>
-                        <div class="swiper-slide"><img src="assets/images/AI_QuienesSomosC2_Mision.png"></div>
-                        <div class="swiper-slide"><img src="assets/images/AI_QuienesSomosC2_Valores.png"></div>
-                    </div> -->
-                    <!--Agregamos paginación -->
-                    <!--<div class="swiper-pagination"></div>
-                </div>-->
-                <h1 align="center">
-                    SLIDER EN CONSTRUCCIÓN
-                </h1>
+        <div class="row">
+            <div id="seccionInicio">
             </div>
-            <!--End swiper -->
+        </div>
+        <!--Start swiper -->
+        <div class="row">
+            <div class="col-md-12" class="col-xs-6">
+            <!-- Start WOWSlider.com BODY section -->
+                <div id="wowslider-container1">
+                <div class="ws_images">
+                    <ul>
+                    <li><img id="quienesSo1" src="assets/data1/images/ai_quienessomosc1.png" alt="AI_QuienesSomosC1" title="AI_QuienesSomosC1" id="wows1_0"/></li>
+                    <li><img id="quienesSo2" src="assets/data1/images/ai_quienessomosc2_altitud.png" alt="AI_QuienesSomosC2_Altitud" title="AI_QuienesSomosC2_Altitud" id="wows1_1"/></li>
+                    <li><img id="quienesSo3" src="assets/data1/images/ai_quienessomosc2_mision.png" alt="wowslider.com" title="AI_QuienesSomosC2_Mision" id="wows1_2"/></li>
+                    <li><img id="quienesSo4" src="assets/data1/images/ai_quienessomosc2_valores.png" alt="AI_QuienesSomosC2_Valores" title="AI_QuienesSomosC2_Valores" id="wows1_3"/></li>
+                    </ul>
+                </div>
+                <div class="ws_bullets"><div>
+                    <a href="#wows1_0" title="AI_QuienesSomosC1"><span><img src="assets/data1/tooltips/ai_quienessomosc1.png" alt="AI_QuienesSomosC1"/>1</span></a>
+                    <a href="#wows1_1" title="AI_QuienesSomosC2_Altitud"><span><img src="assets/data1/tooltips/ai_quienessomosc2_altitud.png" alt="AI_QuienesSomosC2_Altitud"/>2</span></a>
+                    <a href="#wows1_2" title="AI_QuienesSomosC2_Mision"><span><img src="assets/data1/tooltips/ai_quienessomosc2_mision.png" alt="AI_QuienesSomosC2_Mision"/>3</span></a>
+                    <a href="#wows1_3" title="AI_QuienesSomosC2_Valores"><span><img src="assets/data1/tooltips/ai_quienessomosc2_valores.png" alt="AI_QuienesSomosC2_Valores"/>4</span></a>
+                </div></div>
+                <div class="ws_shadow"></div>
+                </div>
+            <!-- End WOWSlider.com BODY section -->
+            </div>
+        </div>
+  
+        <!--End swiper -->
         <!--Fin de la primera seccion -->
 
         <!--Separador-->
@@ -169,16 +191,6 @@
         <br>
         <br>
         <br>
-        <!--
-        <img id="logoIconAmarillo" src="assets/images/AltitudInmobiliaria_LogoIcon_Amarillo_512.png">
-                <h2 id="HenryLema">
-                    "Llegar juntos es el principio. Mantenerse juntos, </br>
-                    es el progreso. Trabajar juntos es el éxito".
-                </h2>
-                <h3 id="HenryNombre">
-                    -Henry Ford
-                </h3>
-         -->
         <!--Segunda sección -->
         <div id="somosDos"class="row">
             <div class="col-md-4" class="col-xs-2">
@@ -208,7 +220,9 @@
 
         <!--Tercera sección -->
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-4" class="col-xs-4">
                 <h1 id="LetraTeam">
                     EQUIPO
                 </h1>
@@ -229,6 +243,7 @@
                     proyectos tales como el PMI.
                 </h4>
             </div>
+            <br>
             <div class="col-md-1">
             </div>
             <div class="col-md-6">
@@ -307,7 +322,7 @@
         <!--Fin del separador para bajar el slider-->
         <!--Slider de imagenes en blanco y negro -->
             <!-- Swiper -->
-    <div class="swiper-container">
+    <div class="swiper-container" style="z-index:4000">
         <div class="swiper-wrapper">
             <div class="swiper-slide"><img id="imagen1" src="assets/images/ImagesSlider/Negro/IMG_0006.jpg"></div>
             <div class="swiper-slide"><img id="imagen1" src="assets/images/ImagesSlider/Negro/IMG_0008.jpg"></div>
@@ -355,31 +370,37 @@
         <!--Fin separador -->
         
         <!--Inicio de la sección valor -->
+        <div id="valorSeccion">
+        </div>
         <div class="row">
-            <div class="col-md-3" onmouseover="colorFunction()" onmouseout="backToNormal()">
-                <h1 id="inicio">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-2" onmouseover="colorFunction()" onmouseout="backToNormal()">
+                <h1 id="inicio" align="center">
                     CLIENTES
                 </h1>
             </div>
-            <div class="col-md-1">
+            <div class="col-md-1" align="center">
                 <h1 id="plusSimbol">
                     +
                 </h1>
             </div>
-            <div class="col-md-3" onmouseover="colorFunction1()" onmouseout="backToNormal1()">
-                <h1 id="inicio1">
+            <div class="col-md-2" onmouseover="colorFunction1()" onmouseout="backToNormal1()">
+                <h1 id="inicio1" align="center">
                     ENTORNO
                 </h1>
             </div>
             <div class="col-md-1">
-                <h1 id="plusSimbol1">
+                <h1 id="plusSimbol1" align="center">
                     +
                 </h1>
             </div>
-            <div class="col-md-3" onmouseover="colorFunction2()" onmouseout="backToNormal2()">
-                <h1 id="inicio2">
+            <div class="col-md-2" onmouseover="colorFunction2()" onmouseout="backToNormal2()">
+                <h1 id="inicio2" align="center">
                     INVERSIONISTAS
                 </h1>
+            </div>
+            <div class="col-md-3">
             </div>
         </div>
         <br>
@@ -415,6 +436,8 @@
         <!--Fin separador -->
 
         <!--Inicio sección socios -->
+        <div id="socios" class="row">
+        </div>
         <div class="row">
             <div class="col-md-12" class="col-xs-6">
                 <h1 id="juntosCreamosValor" align="center">
@@ -452,7 +475,7 @@
         <!--Fin separador -->
         <!--Inicio Sección contácto -->
         <div class="row">
-            <div class="col-md-12" align="center">
+            <div id="contacto2" class="col-md-12" align="center">
                 <img id="logo" src="assets/images/logo.png">
             </div>
         </div>
@@ -490,42 +513,51 @@
         <div class="row" id="footer1" align="center">
             <h4>ALTITUD INMOBILIARIA, OPERADORA DE PROYECTOS ALTI S.A. DE C.V. TODOS LOS DERECHOS RESERVADOS. MÉXICO 2016</h4>
         </div>
-
+    </div>
         <!--Inicio de la sección de contacto en barra inferior desplegable con jquery -->
         <footer class="footer">
-        <div id="footer_higher">
-            <div id="footer_content">
-                <div class="col-lg-12">
-                <form class="form-horizontal">
-                    <div class="form-group">
-                        <div class="col-sm-10">
-                            <input type="text" class="form-control" id="inputNombre" aria-required="true" placeholder="Nombre" required>
+        <div class="row">
+            <div class="col-md-4">
+                <div id="footer_higher">
+                    <div id="footer_content">
+                        <form class="form-horizontal">
+                            <h3 align="center">CONTACTO</h3>
+                        <div class="form-group">
+                                <div class="col-md-10">
+                                    <input type="text" class="form-control" id="inputNombre" aria-required="true" placeholder="Nombre" required>
+                                </div>
                         </div>
+                          <div class="form-group">
+                              <div class="col-md-10">
+                                <input type="email" class="form-control" id="inputEmail" aria-required="true" placeholder="Email" required>
+                              </div>
+                            </div>
+                          <div class="form-group">
+                                <div class="col-md-10">
+                                    <textarea id="inputMensaje" class="form-control" name="message" cols="45" rows="3" aria-required="true" placeholder="Mensaje" required></textarea>
+                                </div>
+                            </div>
+                          <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                              <button id="botonEnviar" type="submit" class="btn btn-warning" align="center">ENVIAR</button>
+                            </div>
+                            <br>
+                            <br>
+                          </div>
+                        </form>
+                        <div class="clear"></div>
                     </div>
-                    <div class="form-group">
-                      <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail" aria-required="true" placeholder="Email" required>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                        <div class="col-sm-10">
-                            <textarea id="inputMensaje" class="form-control" name="message" cols="45" rows="3" aria-required="true" placeholder="Mensaje" required></textarea>
-                        </div>
-                    </div>
-                    <!--Boton para enviar-->
-                    <button id="botonEnviar" type="submit" class="btn btn-warning">ENVIAR</button>
-                </form>
-                <br>
-                <br>
-                <br>
-            </div>
-                <div class="clear"></div>
+                </div>
             </div>
         </div>
         </footer>
         <!--Fin de la sección de contacto para en barra inferior desplegable -->
         <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
         <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+        <!--Inicio de importar los js para el wow slider -->
+        <script type="text/javascript" src="assets/engine1/wowslider.js"></script>
+        <script type="text/javascript" src="assets/engine1/script.js"></script>
+        <!--Fin de importar los js de wow slider -->
         <!--Import Swiper js -->
         <script src="assets/js/swiper.min.js"></script>
         <!-- Initialize Swiper -->

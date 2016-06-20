@@ -41,6 +41,9 @@
 a.nounderline:link   
 {   
  text-decoration:none;   
+}
+.containerpersonalizado{
+  margin: 8px;
 } 
 /*Estilos para la parte de nosotros*/
 #nosotros{
@@ -50,7 +53,6 @@ a.nounderline:link
 } 
 body{
   background-image: url(../images/fondo.png);
-  background-size: 100%;
   font-color: #fff;
   opacity: 30%;
   margin: 0 0 100px;
@@ -131,41 +133,195 @@ footer{
   height: 790px;
 }
 /*Es para darle tamaño al contenedor de la imagen, el overflow es para ocultar una parte de la imagen*/
+
+/*Para aumentar el tamaño de la imagen y que sea responsivo*/
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */
+  .pictureContainer {
+      height: 27px;
+      width: 500px;
+      overflow: hidden;
+  }
+  .pictureContainer img {
+      transform: translate3d(0px, 0px, 0px);
+      transition: transform .2s ease-in-out;
+  }
+/*Cuando se pase el mouse sobre la imagen la imagen cambiara*/
+  .pictureContainer img:hover {
+      transform: translate3d(0px, -25px, 0px);
+  }
+   #pictureUs{
+    width: 470px;
+    height: 50px; 
+  }
+  #pictureCreate{
+    width: 470px;
+    height: 50px;
+  }
+  #pictureValue{
+    width: 420px;
+    height: 55px;
+    margin-left: 2%;
+  }
+  #pictureDo{
+    width: 470px;
+    height: 50px;
+  }
+  #pictureEnloque{
+    width: 75px;
+    height: 25px;
+    margin-left: 2%;
+  }
+}
+@media (min-width:481px) { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. iphone6 */ 
+
+}
+@media (min-width:641px) { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
 .pictureContainer {
+      height: 50px;
+      width: 600px;
+      overflow: hidden;
+  }
+  .pictureContainer img {
+      transform: translate3d(0px, 0px, 0px);
+      transition: transform .2s ease-in-out;
+  }
+  /*Cuando se pase el mouse sobre la imagen la imagen cambiara*/
+  .pictureContainer img:hover {
+      transform: translate3d(0px, -59px, 0px);
+  }
+  #pictureUs{
+    width: 390px;
+    height: 110px; 
+  }
+  #pictureCreate{
+    width: 450px;
+    height: 110px;
+  }
+  #pictureValue{
+    width: 530px;
+    height: 110px;
+    margin-left: 2%;
+  }
+  #pictureDo{
+    width: 500px;
+    height: 110px;
+  }
+  #pictureEnloque{
+    width: 90px;
+    height: 45px;
+    margin-left: 2%;
+  }
+}
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ 
+  .pictureContainer {
     height: 77px;
     width: 1250px;
     overflow: hidden;
+  }
+  .pictureContainer img {
+      transform: translate3d(0px, 0px, 0px);
+      transition: transform .2s ease-in-out;
+  }
+  /*Cuando se pase el mouse sobre la imagen la imagen cambiara*/
+  .pictureContainer img:hover {
+      transform: translate3d(0px, -70px, 0px);
+  }
+  #pictureUs{
+    width: 1100px;
+    height: 140px; 
+  }
+  #pictureCreate{
+    width: 1100px;
+    height: 140px;
+  }
+  #pictureValue{
+    width: 1185px;
+    height: 145px;
+    margin-left: 2%;
+  }
+  #pictureDo{
+    width: 1100px;
+    height: 145px;
+  }
+  #pictureEnloque{
+    width: 200px;
+    height: 60px;
+    margin-left: 2%;
+  }
 }
-.pictureContainer img {
-    transform: translate3d(0px, 0px, 0px);
-    transition: transform .2s ease-in-out;
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+  .pictureContainer {
+      height: 77px;
+      width: 1250px;
+      overflow: hidden;
+  }
+  .pictureContainer img {
+      transform: translate3d(0px, 0px, 0px);
+      transition: transform .2s ease-in-out;
+  }
+  /*Cuando se pase el mouse sobre la imagen la imagen cambiara*/
+  .pictureContainer img:hover {
+      transform: translate3d(0px, -70px, 0px);
+  }
+  #pictureUs{
+    width: 1100px;
+    height: 140px; 
+  }
+  #pictureCreate{
+    width: 1100px;
+    height: 140px;
+  }
+  #pictureValue{
+    width: 1185px;
+    height: 145px;
+    margin-left: 2%;
+  }
+  #pictureDo{
+    width: 1100px;
+    height: 145px;
+  }
+  #pictureEnloque{
+    width: 200px;
+    height: 60px;
+    margin-left: 2%;
+  }
 }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ 
+  .pictureContainer {
+      height: 77px;
+      width: 1250px;
+      overflow: hidden;
+  }
+  .pictureContainer img {
+      transform: translate3d(0px, 0px, 0px);
+      transition: transform .2s ease-in-out;
+  }
 /*Cuando se pase el mouse sobre la imagen la imagen cambiara*/
-.pictureContainer img:hover {
-    transform: translate3d(0px, -70px, 0px);
-}
-/*Para aumentar el tamaño de la imagen*/
-#pictureUs{
-  width: 1100px;
-  height: 140px; 
-}
-#pictureCreate{
-  width: 1100px;
-  height: 140px;
-}
-#pictureValue{
-  width: 1200px;
-  height: 145px;
-  margin-left: 2%;
-}
-#pictureDo{
-  width: 1100px;
-  height: 145px;
-}
-#pictureEnloque{
-  width: 200px;
-  height: 60px;
-  margin-left: 2%;
+  .pictureContainer img:hover {
+      transform: translate3d(0px, -70px, 0px);
+  }
+  #pictureUs{
+    width: 1100px;
+    height: 140px; 
+  }
+  #pictureCreate{
+    width: 1100px;
+    height: 140px;
+  }
+  #pictureValue{
+    width: 1185px;
+    height: 145px;
+    margin-left: 2%;
+  }
+  #pictureDo{
+    width: 1100px;
+    height: 145px;
+  }
+  #pictureEnloque{
+    width: 200px;
+    height: 60px;
+    margin-left: 2%;
+  }
 }
 #title{
   font-family: 'Gotham',sans-serif;
@@ -174,18 +330,9 @@ footer{
 }
 /*Estilos para el form de correo*/
 #inputNombre{
-  margin-left: 8%;
   margin-top: 20%;
 }
-#inputEmail{
-  margin-left: 8%;
-}
-#inputMensaje{
-  margin-left: 8%;
-}
-#botonEnviar{
-  margin-left: 45%;
-}
+
 /*Estilos imagen para valor en*/
 #imagenValor{
   width: 100%;
@@ -309,19 +456,16 @@ footer{
 #LetraTeam{
   font-family: 'Gotham',sans-serif;
   font-size: 600%;
-  margin-left: 15%;
   color: #FFFF00;
   text-shadow: 3px 3px #403D3D;
 }
 #MenTeam{
   font-family: 'Gotham',sans-serif;
   color: #FFFFFF;
-  margin-left: 15%;
 }
 #MenTeam1{
   font-family: 'Gotham',sans-serif;
   color: #FFFFFF;
-  margin-left: 15%;
 }
 #ImageTeam{
   height: 380px ;
@@ -337,23 +481,22 @@ footer{
 }
 /*Estilos para las letras de la sección valor*/
 #inicio{
-  margin-left: 30%;
   font-size: 370%;
+  cursor: pointer;
 }
 #plusSimbol{
-  margin-left: 60%;
   font-size: 430%;
 }
 #inicio1{
-  margin-left: 20%;
   font-size: 370%;
+  cursor: pointer;
 }
 #plusSimbol1{
-  margin-left: 30%;
   font-size: 430%;
 }
 #inicio2{
   font-size: 370%;
+  cursor: pointer;
 }
 #cuadro{
   margin-left: 30%;
@@ -362,12 +505,12 @@ footer{
 #planeacion{
   height: 200px;
   width: 200px;
-  margin-left: 32%;
+  margin-left: 5%;
 }
 #proyectos{
   height: 200px;
   width: 200px;
-  margin-left: 32%;
+  margin-left: 5%;
 }
 #planeacionText{
   margin-top: 10%;
@@ -381,29 +524,23 @@ footer{
 #supervision{
   height: 200px;
   width: 200px;
-  margin-left: 32%;
+  margin-left: 5%;
 }
 #direccion{
   height: 200px;
   width: 200px;
-  margin-left: 32%;
+  margin-left: 5%;
 }
 /*Estilos para la parte de contacto desplegable*/
 #container {
-    width:980px;
-    margin: 0 auto;
-  }
-  #content {
-    background: #FEFEFE;
-    padding: 30px;
-    height: 1000px;
+    width:100%;
   }
   #imageFooterSlide{
     width: 35px;
     height: 35px;
     margin-left: 91%;
     position: fixed;
-    z-index: 5;
+    z-index: 8000;
     cursor: pointer;
     bottom: 50px;
   }
@@ -413,22 +550,15 @@ footer{
     position: fixed;
     left: 0;
     bottom: 0;
+    z-index: 7000;
   }
   #footer_higher #footer_content {
-    width: 980px;
-    margin: 0 auto;
+    margin-left: 8px;
+    width: 475px;
     display: none;
+    z-index: 7000;
   }
-  #footer_higher #footer_content .footbox {
-    background: #323232;
-    padding: 20px;
-    float: left;
-    width: 265px;
-    margin: 10px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-  }
+
 
   .clear {
     clear:both;
@@ -476,6 +606,7 @@ footer{
 #imagen1{
   height:300px; 
   width:100%;
+  cursor: move;
 }
 /*Estilos para la sección de valor*/
 #juntosCreamosValor{
@@ -501,3 +632,4 @@ footer{
   height: 125px;
   margin-left: 37%;
 }
+/*Estilos para el primer slider de wow slider o shi*/
